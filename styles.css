@@ -14,6 +14,7 @@ body {
     /*background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%238b8a8d' fill-opacity='0.77' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");*/
     font-size: 16px;
     font-family: 'Julius Sans One', sans-serif;
+    font-weight: bolder;
 }
 
 a {
@@ -46,7 +47,8 @@ h1{
 }
 
 .nav-brand {
-    width: 50px;
+    width: 220px;
+    height: 55px;
 }
 
 /*Nav left*/
@@ -79,9 +81,10 @@ hr{
     margin: 10px 0;
 }
 .showcase {
-    width: 100%;
-    height: 550px;
-    background: url('./img/Perfíl\ en\ facebook\ 1.jpeg') no-repeat center center/cover;
+    width: 75%, center;
+    height: 1200px;
+    background: url('./img/perfil_en_facebook_4.png') no-repeat center center/cover;
+   
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
